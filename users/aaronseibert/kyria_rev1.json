@@ -1,0 +1,11 @@
+{
+    "keyboard": "splitkb/kyria/rev1/base",
+    "keymap": "AaronSeibert",
+    "layout": "LAYOUT_kyria_wrapper",
+    "layers": [
+        [ "C_KYRIA(_QWE)" ],
+        [ "C_KYRIA(_MSE)" ],
+        [ "C_KYRIA(_SYM)" ],
+        [ "C_KYRIA(_NUM)" ]
+    ]
+}
