@@ -28,7 +28,6 @@
 #    define COMBO_COUNT 3
 #endif
 
-#define CHORD_HOLD
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 
 
