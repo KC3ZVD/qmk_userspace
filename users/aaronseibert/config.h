@@ -28,4 +28,6 @@
 
 #define TAPPING_TERM_PER_KEY
 
+#define ENABLE_COMPILE_KEYCODE
+
 #include "layouts.h"

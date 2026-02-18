@@ -36,9 +36,9 @@
 
 #define _SYM \
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
-    _______,  KC_GRV,  KC_DQT, KC_QUOT,  KC_DLR, KC_EXLM, KC_PLUS, KC_LCBR, KC_RCBR, KC_QUES, KC_ASTR, XXXXXXX,  \
-    _______, KC_PIPE, KC_PERC, KC_LABK,  KC_EQL, KC_RABK, KC_MINS, KC_LPRN, KC_RPRN,   KC_AT, KC_COLN, XXXXXXX, \
-    _______, KC_TILD, KC_HASH, KC_CIRC, KC_AMPR, KC_BSLS, KC_UNDS, KC_LBRC, KC_RBRC, _______, _______, XXXXXXX, \
+    XXXXXXX,  KC_GRV,  KC_DQT, KC_QUOT,  KC_DLR, KC_EXLM, KC_PLUS, KC_LCBR, KC_RCBR, KC_QUES, KC_ASTR, XXXXXXX,  \
+    XXXXXXX, KC_PIPE, KC_PERC, KC_LABK,  KC_EQL, KC_RABK, KC_MINS, KC_LPRN, KC_RPRN,   KC_AT, KC_COLN, XXXXXXX, \
+    XXXXXXX, KC_TILD, KC_HASH, KC_CIRC, KC_AMPR, KC_BSLS, KC_UNDS, KC_LBRC, KC_RBRC, _______, _______, XXXXXXX, \
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
 
 #define _NUM \
@@ -50,17 +50,17 @@
 
 #define _NAV \
     KC_F12,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11, \
-    _______, ALT_F4,  TAB_LT,  TAB_RT,  CTL_F4,  KC_VOLU, KC_INS,  KC_PGDN, KC_UP,   KC_PGUP, KC_CALC, _______, \
-    _______, KC_LCTL, KC_LGUI, KC_LALT, SFT_TAB, KC_VOLD, KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT, KC_END,  _______, \
-    _______, XXXXXXX, WIN_LT,  WIN_RT,  SFT_INS, KC_MPLY, XXXXXXX, KC_DEL,  KC_MPRV, KC_MNXT, XXXXXXX, _______, \
-    _______, _______, _______, _______, _______, _______, _______, KC_LSFT, _______, _______, _______, _______
+    XXXXXXX, ALT_F4,  TAB_LT,  TAB_RT,  CTL_F4,  KC_VOLU, KC_INS,  KC_PGDN, KC_UP,   KC_PGUP, KC_CALC, _______, \
+    XXXXXXX, KC_LCTL, KC_LGUI, KC_LALT, SFT_TAB, KC_VOLD, KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT, KC_END,  _______, \
+    XXXXXXX, XXXXXXX, WIN_LT,  WIN_RT,  SFT_INS, KC_MPLY, XXXXXXX, KC_DEL,  KC_MPRV, KC_MNXT, XXXXXXX, _______, \
+    XXXXXXX, _______, _______, _______, _______, _______, _______, KC_LSFT, _______, _______, _______, _______
 
 #define _FUN \
-    _______, DF(DEF), DF(QWE), DF(GME), _______, _______, _______, _______, _______, RGB_VAD, RGB_VAI, RGB_TOG, \
-    _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   XXXXXXX, XXXXXXX, DF(DEF), DF(QWE), DF(GME), RGB_MOD, \
+    XXXXXXX, DF(DEF), DF(QWE), DF(GME), _______, _______, _______, _______, _______, RGB_VAD, RGB_VAI, RGB_TOG, \
+    XXXXXXX, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   XXXXXXX, XXXXXXX, DF(DEF), DF(QWE), DF(GME), RGB_MOD, \
     QK_BOOT, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, RGB_RMOD, \
-    _______, XXXXXXX, DSK_LT,  DSK_RT,  KC_F11,  KC_F12,  XXXXXXX, KC_CAPS, KC_PSCR, KC_PAUS, XXXXXXX, _______, \
-    _______, _______, _______, QK_RBT,  QK_BOOT, _______, _______, QK_BOOT, QK_RBT,  _______, _______, _______
+    XXXXXXX, XXXXXXX, DSK_LT,  DSK_RT,  KC_F11,  KC_F12,  XXXXXXX, KC_CAPS, KC_PSCR, KC_PAUS, XXXXXXX, _______, \
+    XXXXXXX, _______, _______, QK_RBT,  QK_BOOT, _______, _______, QK_BOOT, QK_RBT,  _______, _______, _______
 
 #define _MSE \
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
@@ -77,7 +77,7 @@
     k30, k31, k32, k33, k34, k35, k36, k37, k38, k39, k3a, k3b, \
     k40, k41, k42, k43, k44, k45, k46, k47, k48, k49, k4a, k4b  \
 ) \
-    XXXXXXX, k11, k12, k13, k14, k15,                                     k16, k17, k18, k19, k1a, XXXXXXX, \
+    QK_MAKE, k11, k12, k13, k14, k15,                                     k16, k17, k18, k19, k1a, XXXXXXX, \
     XXXXXXX, k21, k22, k23, k24, k25,                                     k26, k27, k28, k29, k2a, XXXXXXX, \
     XXXXXXX, k31, k32, k33, k34, k35, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, k36, k37, k38, k39, k3a, XXXXXXX, \
               XXXXXXX, GUI_TAB, BSC_SYM, SPC_MSE, ENT_SYM, ENT_SYM, DEL_SYM, SPC_NUM, GUI_TAB, XXXXXXX
