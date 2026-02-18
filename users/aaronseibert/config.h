@@ -26,4 +26,6 @@
 #    define COMBO_COUNT 3
 #endif
 
+#define TAPPING_TERM_PER_KEY
+
 #include "layouts.h"
