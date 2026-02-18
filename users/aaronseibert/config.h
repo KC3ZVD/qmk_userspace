@@ -1,5 +1,7 @@
 #pragma once
 
+#include "layouts.h"
+
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_EFFECT_BREATHING
 #    define RGBLIGHT_EFFECT_RAINBOW_MOOD
@@ -26,8 +28,10 @@
 #    define COMBO_COUNT 3
 #endif
 
-#define TAPPING_TERM_PER_KEY
+#define CHORD_HOLD
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+
 
 #define ENABLE_COMPILE_KEYCODE
 
-#include "layouts.h"
+#define CONSOLE_ENABLE = no
