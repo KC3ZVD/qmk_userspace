@@ -15,7 +15,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case BSC_SYM:
-        case SPC_NUM:
         case HR_D:
         case HR_K:
             // Immediately select the hold action when another key is pressed.
