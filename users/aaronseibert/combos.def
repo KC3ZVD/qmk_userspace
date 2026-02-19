@@ -1,3 +1,0 @@
-COMB(c_qw, KC_TAB, KC_Q, KC_W)
-COMB(c_df, KC_ESC, LSFT_T(KC_D), LGUI_T(KC_F))
-COMB(c_jk, KC_SPC, RGUI_T(KC_J), RSFT_T(KC_K))

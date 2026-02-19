@@ -33,7 +33,7 @@
 #define _QWE \
     KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC, \
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSLS, \
-    KC_ESC,  HR_A,    HR_S,    HR_D,    HR_F,    KC_G,    KC_H,    HR_J,    HR_K,    HR_L,    HR_SCLN, KC_QUOT, \
+    KC_ESC,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, \
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, \
     _______, _______, _______, GUI_TAB, CTL_ESC, NAV_SPC, SYM_BSP, SFT_ENT, ALT_DEL, _______, _______, _______
 
@@ -59,7 +59,7 @@
     XXXXXXX, _______, _______, _______, _______, _______, _______, KC_LSFT, _______, _______, _______, _______
 
 #define _FUN \
-    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______, _______, _______, XXXXXXX, XXXXXXX, XXXXXXX, \
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______, _______, _______,   OS_ON,  OS_OFF, XXXXXXX, \
     QK_MAKE, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
     QK_BOOT, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  _______, _______, _______, _______, _______, XXXXXXX, \
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_F11,  KC_F12,  XXXXXXX, KC_CAPS, KC_PSCR, KC_PAUS, XXXXXXX, _______, \
@@ -83,4 +83,8 @@
         k10, k11, k12, k13, k14, k15,                                     k16, k17, k18, k19, k1a, XXXXXXX, \
     XXXXXXX, k21, k22, k23, k24, k25,                                     k26, k27, k28, k29, k2a, XXXXXXX, \
     XXXXXXX, k31, k32, k33, k34, k35, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, k36, k37, k38, k39, k3a, XXXXXXX, \
-              XXXXXXX, GUI_TAB, BSC_SYM, SPC_MSE, ENT_SYM, ENT_FUN, DEL_NUM, KC_SPC, GUI_TAB, XXXXXXX
+              XXXXXXX, GUI_TAB, BSC_SYM, SPC_MSE, OS_LSFT, ENT_FUN, DEL_NUM, KC_SPC, GUI_TAB, XXXXXXX
+
+
+
+

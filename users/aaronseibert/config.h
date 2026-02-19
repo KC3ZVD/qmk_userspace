@@ -25,12 +25,13 @@
 #    define COMBO_TERM 20
 #    define COMBO_ONLY_FROM_LAYER 0
 #    define COMBO_SHOULD_TRIGGER
-#    define COMBO_COUNT 3
+#    define COMBO_COUNT 6
 #endif
 
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
-
-
 #define ENABLE_COMPILE_KEYCODE
+#define CONSOLE_ENABLE = yes
 
-#define CONSOLE_ENABLE = no
+#define ONESHOT_TAP_TOGGLE 2
+#define QUICK_TAP_TERM_PER_KEY
+//#define FLOW_TAP_TERM 75

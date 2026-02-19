@@ -5,5 +5,3 @@ RGBLIGHT_ENABLE = no  		# Enable keyboard RGB underglow
 TAP_DANCE_ENABLE = no		# Enable tap dance
 MOUSEKEY_ENABLE = yes		# Enable mouse keys
 COMBO_ENABLE = yes
-
-INTROSPECTION_KEYMAP_C = combos.c
