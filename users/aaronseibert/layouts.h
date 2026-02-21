@@ -21,8 +21,8 @@
 #define GUI_TAB MT(MOD_LGUI, KC_TAB)
 #define SPC_MSE LT(MSE, KC_SPC)
 #define ENT_SYM LT(SYM, KC_ENT)
-#define BSC_SYM LT(SYM, KC_BSPC)
-#define DEL_NUM LT(NUM, KC_DEL)
+#define BSC_NUM LT(NUM, KC_BSPC)
+#define DEL_SYM LT(SYM, KC_DEL)
 #define ENT_FUN LT(FUN, KC_ENT)
 
 // Tap Dance keys
@@ -83,7 +83,7 @@
         k10, k11, k12, k13, k14, k15,                                     k16, k17, k18, k19, k1a, XXXXXXX, \
     XXXXXXX, k21, k22, k23, k24, k25,                                     k26, k27, k28, k29, k2a, XXXXXXX, \
     XXXXXXX, k31, k32, k33, k34, k35, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, k36, k37, k38, k39, k3a, XXXXXXX, \
-              XXXXXXX, GUI_TAB, BSC_SYM, SPC_MSE, OS_LSFT, ENT_FUN, DEL_NUM, KC_SPC, GUI_TAB, XXXXXXX
+              XXXXXXX, GUI_TAB, BSC_NUM, SPC_MSE, OS_LSFT, ENT_FUN, DEL_SYM, KC_SPC, GUI_TAB, XXXXXXX
 
 
 
