@@ -1,4 +1,6 @@
+#include "aaronseibert.h"
 // one shot/modifier combos
+
 const uint16_t PROGMEM c_dk[] = {KC_D, KC_K, COMBO_END};
 const uint16_t PROGMEM c_fj[] = {KC_F, KC_J, COMBO_END};
 const uint16_t PROGMEM c_sl[] = {KC_S, KC_L, COMBO_END};
